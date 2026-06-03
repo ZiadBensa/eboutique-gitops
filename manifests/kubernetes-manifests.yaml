@@ -581,7 +581,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: image: gcr.io/google-samples/microservices-demo/emailservice:v0.123-nonexistent
+        image: gcr.io/google-samples/microservices-demo/emailservice:v0.123-nonexistent
         ports:
         - containerPort: 8080
         env:
